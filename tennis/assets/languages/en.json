@@ -1,0 +1,251 @@
+{
+    "app_exit": {
+        "exit_text": "Press back once again to exit"
+    },
+    "add_money": {
+        "add_money": "Add money",
+        "add": "Add",
+        "enter_amount": "Enter amount",
+        "amount": "Amount"
+    },
+    "login": {
+        "login": "Login",
+        "text1": "By continuing you are agree to the",
+        "text2": "terms and condition",
+        "text3": "of the city rider",
+        "ride_text": "Seed app tennis","password":"password",
+        "welcome_text": "Welcome back, please login your account",
+        "mobile_number": "Mobile number",
+        "enter_number": "Enter your mobile number"
+    },
+    "otp": {
+        "didn't_text": "Didn’t get the OTP?",
+        "resend_OTP": "Resend OTP",
+        "verify": "Verify",
+        "please_wait": "Please wait",
+        "OTP_verification": "OTP verification",
+        "confirm_text": "Confirmation code has been sent to you on your mobile number +91 1234567890"
+    },
+    "register": {
+        "register": "Register",
+        "mobile_number": "Mobile number",
+        "enter_number": "Enter your mobile number",
+        "email_address": "Email Address",
+        "enter_email": "Enter your email address",
+        "name": "Name",
+        "enter_name": "Enter your name",
+        "welcome_text": "Welcome back, please create your account",
+        "ride_text": "Seed app tennis","password":"password"
+    },
+    "confirm": {
+        "ride_time": "Ride time",
+        "pause_time": "Pause time",
+        "travelled": "Travelled",
+        "give_rate": "Give rate",
+        "please_text": "Please  give rate and share your ride’s experience with us",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "share_experience": "How  was your ride? \n share your experience with us",
+        "fixed_rent": "Fixed rent",
+        "ride_fare": "Km ride fare",
+        "pause_fare": "Pause fare",
+        "paid_wallet": "Paid from wallet",
+        "pick_location": "Pick up location",
+        "drop_location": "Drop up location",
+        "calorie_burned": "Calorie burned",
+        "ride_ended": "Ride ended"
+    },
+    "credit_card": {
+        "enter_details": "Enter your card details",
+        "credit_card": "Credit Card",
+        "enter_holde_name": "Enter card holder name",
+        "name_card": "Name on card",
+        "enter_number": "Enter card number",
+        "card_number": "Card number",
+        "expire_date": "Expire date"
+    },
+    "detail": {
+        "ready_go": "Ready to go",
+        "rent": "Rent",
+        "parking_rules": "Parking rules",
+        "get_direction": "Get direction",
+        "unlock_now": "Unlock now",
+        "park_in_cityzone": "Park in city rider zone",
+        "do_not_park": "Do not park in private area",
+        "fixed_rent": "Fixed rent",
+        "per_km": "Per km",
+        "pause_min": "Pause/min",
+        "battery_level": "Battery level",
+        "range_upto": "Range upto"
+    },
+    "end_ride": {
+        "end_ride": "End ride",
+        "drop_point": "Drop at nearest point",
+        "make_sure_text": "*Make sure you park in city rider zone only",
+        "back": "Back",
+        "confirm": "Confirm"
+    },
+    "home": {
+        "where_to_go": "Where do you want to go?",
+        "scooters_available": "scooters available",
+        "battery": "Battery",
+        "range": "Range",
+        "go_detail": "Go detail"
+    },
+    "notification": {
+        "no_notification": "No new notification",
+        "removed_notification": "Removed from notification",
+        "ago": "ago"
+    },
+    "onboarding": {
+        "find_destination": "Find your destination",
+        "scan_code": "Scan QR code",
+        "start_ride": "Start your ride",
+        "skip": "Skip",
+        "login": "Login",
+        "next": "Next"
+    },
+    "app_settings": {
+        "app_settings": "App settings",
+        "dark_mode": "Dark mode",
+        "policy_community": "Policy & community",
+        "application_update": "Application update",
+        "allow_notification": "Allow notification"
+    },
+    "edit_profile": {
+        "edit_profile": "Edit profile",
+        "update": "Update",
+        "email_address": "Email Address",
+        "enter_email": "Enter email address",
+        "mobile_number": "Mobile number",
+        "enter_number": "Enter mobile number",
+        "name": "Name",
+        "enter_name": "Enter your name",
+        "change_profile_photo": "Change profile Photo",
+        "camera": "Camera",
+        "gallery": "Gallery",
+        "remove": "Remove"
+    },
+    "faqs": {
+        "faqs": "FAQs"
+    },
+    "help": {
+        "help_support": "Help & support",
+        "submit": "Submit",
+        "message": "Message",
+        "write_here": "Write message here",
+        "email_address": "Email Address",
+        "enter_email": "Enter your email address",
+        "name": "Name",
+        "enter_name": "Enter your name"
+    },
+    "language": {
+        "language": "Language",
+        "update": "Update"
+    },
+    "privacy_policy": {
+        "privacy_policy": "Privacy policy",
+        "introduction": "Introduction"
+    },
+    "profile": {
+        "profile": "Profile",
+        "ride_history": "Ride history",
+        "refer_earn": "Refer and earn",
+        "language": "Language",
+        "app_settings": "App settings",
+        "FAQs": "FAQs",
+        "privacy_policy": "Privacy policy",
+        "terms_condition": "Terms and condition",
+        "help_support": "Help & support",
+        "logout_text": "Are you sure you want to logout?",
+        "cancel": "Cancel",
+        "logout": "Logout",
+        "ride_taken": "Ride taken",
+        "ride": "Ride",
+        "distance": "Distance",
+        "calories": "Calories"
+    },
+    "refer_and_earn": {
+        "refer_and_earn": "Refer and earn",
+        "content_text": "Share this link to your friends, after they sign in and book first ride you will get $30.",
+        "text": "Refer and earn up to $30",
+        "share_via": "Share link via"
+    },
+    "ride_history": {
+        "ride_history": "Ride history",
+        "give_rate": "Give rate",
+        "please_text": "Please  give rate and share your ride’s experience with us",
+        "submit": "Submit",
+        "cancel": "Cancel"
+    },
+    "terms_and_condition": {
+        "terms_and_condition": "Terms and condition"
+    },
+    "receipt": {
+        "ride_start_location": "Ride Start location",
+        "ride_end_location": "Ride End location",
+        "purpose": "Purpose",
+        "payment_method": "Payment method",
+        "payment_date": "Payment Date",
+        "payment_time": "Payment Time",
+        "cycle_no": "Cycle no",
+        "receipt_no": "Receipt no",
+        "name": "Name",
+        "ride_time": "Ride time",
+        "need_more_help": "Need more help?",
+        "contact_us": "Contact us",
+        "you_paid": "You are paid"
+    },
+    "scan": {
+        "enter_code_manually": "Enter code manually",
+        "having_issue": "Having issue?",
+        "scan_unlock": "Scan to unlock",
+        "scan_code_text": "Scan QR code that you will find back of the cycle"
+    },
+    "search": {
+        "type_search": "Type to search",
+        "recently_searched": "Recently searched",
+        "use_current_location": "Use my current location"
+    },
+    "search_result": {
+        "go_detail": "Go detail",
+        "battery": "Battery",
+        "range": "Range",
+        "scooters_available": "scooters available"
+    },
+    "security_deposite": {
+        "later": "Later",
+        "security_deposit": "Security deposit",
+        "content_text": "It’s for payment security only, it will be fully refundable whenever you want",
+        "pay_now": "Pay now"
+    },
+    "start_ride": {
+        "range": "Range",
+        "battery_level": "Battery level",
+        "time_used": "Time used",
+        "travelled": "Travelled",
+        "ride_paused": "Ride paused",
+        "no_cost_till": "No cost till 1 min. then $0.10/min",
+        "paused_time": "Paused time",
+        "resume": "Resume",
+        "pause": "Pause",
+        "end_ride": "End ride"
+    },
+    "success": {
+        "enjoy_text": "Enjoy your ride!",
+        "your_successfully_unlock": "Your bike successfully unlock",
+        "start_ride": "Start ride"
+    },
+    "wallet": {
+        "wallet": "Wallet",
+        "recent_transaction": "Recent transaction",
+        "available_balance": "Available balance",
+        "add_money": "Add money"
+    },
+    "wallet_success": {
+        "back_home": "Back to home",
+        "congratulation": "Congratulation, your Money successfully added in wallet",
+        "added": "Added",
+        "contact_us": "Having issue ? Contact us"
+    }
+}

@@ -1,0 +1,198 @@
+name: Kaledal
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.6.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  video_player: ^2.9.3
+  signature: ^5.5.0
+  pin_code_fields: ^8.0.1
+  flag: ^7.0.0
+  flutter_picker_plus: ^1.5.0
+  scroll_date_picker: ^3.8.0
+  scroll_picker: ^0.0.2
+  wheel_picker: ^0.2.1
+  image_picker: ^1.1.2
+  intl_phone_field: ^3.2.0
+  modal_bottom_sheet: ^3.0.0
+  camera: ^0.11.1
+  auto_size_text: ^3.0.0
+  shared_preferences: ^2.5.2
+  flutter_pdfview: ^1.4.0
+  fl_chart: ^0.70.2
+  path_provider: ^2.1.5
+  dio: ^5.8.0+1
+  geocoding: ^3.0.0
+  flutter_map: ^8.1.1
+  syncfusion_flutter_datepicker: ^29.1.35
+  flutter_holo_date_picker: ^2.0.0
+  file_picker: ^10.1.0
+  flutter_sound: ^9.28.0
+  permission_handler: ^12.0.0+1
+  country_flags: ^3.2.0
+  geolocator: ^13.0.4
+  percent_indicator: ^4.2.5
+  url_launcher: ^6.3.1
+  firebase_core: ^3.13.0
+  google_sign_in: ^6.3.0
+  just_audio: ^0.10.0
+  audio_waveforms: ^1.3.0
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  sign_in_with_apple: ^7.0.1
+  fluttertoast: ^8.2.12
+ # fijkplayer: ^0.11.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logoicon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/logoicon.jpg"
+    background_color: "#EFF6FF"
+    theme_color: "#EFF6FF"
+  windows:
+    generate: true
+    image_path: "assets/images/logoicon.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/logoicon.jpg"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/challenges/
+    - assets/images/spll Kich Player.mp4
+    - assets/videos/Kick1720.mp4
+    - assets/videos/Kick2720.mp4
+    - assets/videos/Kic3720.mp4
+    - assets/videos/Kick4.mp4
+ # fonts:
+ #     - family: FranieVariableTest
+  #      fonts:
+  #        - asset: assets/fonts/FranieVariableTest-Regular-BF64c31f3d73b64.otf
+   #       - asset: assets/fonts/FranieVariableTest-Bold-BF64c31f3d8798d.otf
+  #          weight: 700
+   #       - asset: assets/fonts/FranieVariableTest-Italic-BF64c31f3d8c758.otf
+    #        style: italic
+   #       - asset: assets/fonts/FranieVariableTest-BoldItalic-BF64c31f3db96ab.otf
+   #         weight: 700
+    #        style: italic
+    #      - asset: assets/fonts/FranieVariableTest-Black-BF64c31f3ca614b.otf
+    #        weight: 900
+    #      - asset: assets/fonts/FranieVariableTest-BlackItalic-BF64c31f3d4f65c.otf
+    #        weight: 900
+    #        style: italic
+     #     - asset: assets/fonts/FranieVariableTest-ExtraBold-BF64c31f3d93e1b.otf
+    #        weight: 800
+    #      - asset: assets/fonts/FranieVariableTest-ExtraBoldItalic-BF64c31f3dafebe.otf
+      #      weight: 800
+     #       style: italic
+      #    - asset: assets/fonts/FranieVariableTest-ExtraLight-BF64c31f3ceda28.otf
+     #       weight: 200
+      #    - asset: assets/fonts/FranieVariableTest-ExtraLightItalic-BF64c31f3d91383.otf
+     #       weight: 200
+      #      style: italic
+      #    - asset: assets/fonts/FranieVariableTest-Hair-BF64c31f3db8c2b.otf
+      #      weight: 100
+     #     - asset: assets/fonts/FranieVariableTest-HairItalic-BF64c31f3d96e90.otf
+     #       weight: 100
+      #      style: italic
+      #    - asset: assets/fonts/FranieVariableTest-Light-BF64c31f3dc06e0.otf
+      #      weight: 300
+      #    - asset: assets/fonts/FranieVariableTest-LightItalic-BF64c31f3db72fa.otf
+      #      weight: 300
+      #      style: italic
+      #    - asset: assets/fonts/FranieVariableTest-SemiBold-BF64c31f3d7b0b9.otf
+       #     weight: 600
+      #    - asset: assets/fonts/FranieVariableTest-SemiBoldItalic-BF64c31f3db7d6d.otf
+      #      weight: 600
+      #      style: italic
+      #    - asset: assets/fonts/FranieVariableTest-SemiLight-BF64c31f3d5484a.otf
+       #     weight: 400
+       #   - asset: assets/fonts/FranieVariableTest-SemiLightItalic-BF64c31f3dae070.otf
+       #     weight: 400
+       #     style: italic
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

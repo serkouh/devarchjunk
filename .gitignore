@@ -1,0 +1,20 @@
+# Ignore EVERYTHING
+*
+
+# Allow directories so git can traverse
+!*/
+
+# === ALLOWED FLUTTER PROJECTS ONLY ===
+!solair/
+!syndic/
+!tennis/
+!tennis2/
+
+# Allow Flutter essentials only
+!**/pubspec.yaml
+!**/lib/**
+!**/assets/**
+
+# Always allow git files
+!.gitignore
+!README.md
