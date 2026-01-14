@@ -1,20 +1,29 @@
-# Ignore EVERYTHING
+# Ignore EVERYTHING by default
 *
 
-# Allow directories so git can traverse
+# Allow directories so git can walk the tree
 !*/
 
-# === ALLOWED FLUTTER PROJECTS ONLY ===
-!solair/
-!syndic/
-!tennis/
-!tennis2/
-
-# Allow Flutter essentials only
+# Allow Flutter source only (ANY project, ANY depth)
 !**/pubspec.yaml
 !**/lib/**
 !**/assets/**
 
-# Always allow git files
+# Always allow git metadata
 !.gitignore
 !README.md
+
+# Explicitly ignore common junk
+**/build/**
+**/.dart_tool/**
+**/android/**
+**/ios/**
+**/windows/**
+**/linux/**
+**/macos/**
+**/*.apk
+**/*.aab
+**/*.zip
+**/*.rar
+**/*.exe
+**/*.msi
